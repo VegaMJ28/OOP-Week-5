@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="94rFpt4EuRZxr_FUie2p">
+    <mxGraphModel dx="1334" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Doctor" vertex="1">
+          <mxGeometry height="198" width="160" x="100" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-2" parent="9WkoSyp26zpgQSOsM6fp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+name&lt;div&gt;+speciality&lt;/div&gt;&lt;div&gt;+years of experience&lt;/div&gt;&lt;div&gt;+room #&lt;/div&gt;&lt;div&gt;+schedule&lt;/div&gt;&lt;div&gt;+ patients&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-3" parent="9WkoSyp26zpgQSOsM6fp-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-4" parent="9WkoSyp26zpgQSOsM6fp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+get doctor details&lt;div&gt;+prescribe medication&lt;/div&gt;&lt;div&gt;+check office hours&lt;/div&gt;&lt;div&gt;+treat patients&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Patient" vertex="1">
+          <mxGeometry height="198" width="160" x="260" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-6" parent="9WkoSyp26zpgQSOsM6fp-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+name&lt;div&gt;+age&lt;br&gt;&lt;div&gt;+illness&lt;/div&gt;&lt;div&gt;+assigned room&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+medical history&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-7" parent="9WkoSyp26zpgQSOsM6fp-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-8" parent="9WkoSyp26zpgQSOsM6fp-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+get patient details&lt;div&gt;+display medical history&lt;/div&gt;&lt;div&gt;+buy medicine&lt;/div&gt;&lt;div&gt;+pay&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pharmacist" vertex="1">
+          <mxGeometry height="198" width="160" x="580" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-14" parent="9WkoSyp26zpgQSOsM6fp-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+name&lt;div&gt;+years of experience&lt;br&gt;&lt;div&gt;+schedule&lt;/div&gt;&lt;div&gt;+section&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-15" parent="9WkoSyp26zpgQSOsM6fp-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-16" parent="9WkoSyp26zpgQSOsM6fp-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+get pharmacist details&lt;div&gt;+give medication&lt;/div&gt;&lt;div&gt;+verify the prescription&lt;/div&gt;&lt;div&gt;+check inventary&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Nurse" vertex="1">
+          <mxGeometry height="198" width="160" x="420" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-18" parent="9WkoSyp26zpgQSOsM6fp-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+name&lt;div&gt;+years of experience&lt;br&gt;&lt;div&gt;+floor/room&lt;/div&gt;&lt;div&gt;+schedule&lt;/div&gt;&lt;div&gt;+patients&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-19" parent="9WkoSyp26zpgQSOsM6fp-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9WkoSyp26zpgQSOsM6fp-20" parent="9WkoSyp26zpgQSOsM6fp-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+get nurse details&lt;div&gt;+take vitals&lt;/div&gt;&lt;div&gt;+administer medication&lt;/div&gt;&lt;div&gt;+ add info to patient history&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
